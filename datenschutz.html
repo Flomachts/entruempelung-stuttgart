@@ -1,56 +1,227 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<title>Datenschutz</title>
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <title>Datenschutz | Flo macht’s Entrümpelung</title>
+  <meta name="description" content="Datenschutzhinweise von Flo macht’s Entrümpelung aus Vaihingen an der Enz." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <style>
+    :root{
+      --bg:#f8fafc;
+      --surface:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --line:#e2e8f0;
+      --brand:#ea580c;
+      --brand-dark:#c2410c;
+      --dark:#0f172a;
+      --shadow:0 12px 32px rgba(2,6,23,.08);
+      --radius:18px;
+      --max:980px;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.7;
+    }
+
+    a{color:inherit;text-decoration:none}
+    .container{width:min(100% - 32px, var(--max));margin:auto}
+
+    .topbar{
+      background:var(--dark);
+      color:#fff;
+      font-size:14px;
+    }
+    .topbar .container{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      padding:10px 0;
+      flex-wrap:wrap;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(255,255,255,.96);
+      border-bottom:1px solid var(--line);
+      backdrop-filter:blur(8px);
+    }
+
+    .nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+      padding:16px 0;
+    }
+
+    .logo{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      font-size:24px;
+      font-weight:800;
+      letter-spacing:.2px;
+    }
+
+    .logo img{
+      height:64px;
+      width:auto;
+      display:block;
+    }
+
+    .card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:32px;
+      box-shadow:var(--shadow);
+      margin:42px 0;
+    }
+
+    h1{
+      margin:0 0 18px;
+      font-size:clamp(32px, 4vw, 48px);
+      line-height:1.1;
+    }
+
+    h2{
+      margin:28px 0 10px;
+      font-size:24px;
+      line-height:1.2;
+    }
+
+    p{
+      margin:0 0 14px;
+      color:var(--muted);
+    }
+
+    .btn{
+      display:inline-block;
+      border-radius:999px;
+      padding:14px 20px;
+      font-weight:800;
+      background:var(--brand);
+      color:#fff;
+      margin-top:14px;
+    }
+
+    .footer{
+      background:var(--dark);
+      color:#fff;
+      padding:34px 0;
+      margin-top:10px;
+    }
+
+    .footer-grid{
+      display:flex;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+  </style>
+</head>
 <body>
 
-<h1>Datenschutzerklärung</h1>
+  <div class="topbar">
+    <div class="container">
+      <div>Flo macht’s · Entrümpelung & Haushaltsauflösung</div>
+      <div>Vaihingen an der Enz · Stuttgart · Mühlacker · Pforzheim</div>
+    </div>
+  </div>
 
-<p>
+  <header>
+    <div class="container nav">
+      <a href="/index.html" class="logo" aria-label="Flo macht’s Startseite">
+        <img src="logo.png" alt="Flo macht’s Entrümpelung Logo">
+      </a>
+    </div>
+  </header>
 
-Der Schutz Ihrer persönlichen Daten ist uns wichtig. Nachfolgend informieren wir Sie über die Verarbeitung personenbezogener Daten auf dieser Website.
+  <main class="container">
+    <section class="card">
+      <h1>Datenschutzerklärung</h1>
 
-</p>
+      <h2>1. Verantwortlicher</h2>
+      <p>
+        Florian Demaj<br>
+        Flo macht’s Entrümpelung<br>
+        Heilbronnerstraße 33<br>
+        71665 Vaihingen an der Enz<br>
+        Telefon: +49 173 9022764
+      </p>
 
-<h2>Verantwortlicher</h2>
+      <h2>2. Allgemeine Hinweise</h2>
+      <p>
+        Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Wir verarbeiten personenbezogene Daten
+        im Rahmen der gesetzlichen Vorschriften.
+      </p>
 
-<p>
+      <h2>3. Hosting und Server-Logfiles</h2>
+      <p>
+        Beim Besuch dieser Website können durch den Hosting-Anbieter technisch notwendige Daten verarbeitet werden.
+        Dazu können insbesondere IP-Adresse, Datum und Uhrzeit des Zugriffs, Browsertyp, Betriebssystem und
+        aufgerufene Seiten gehören.
+      </p>
 
-Florian Demaj  
-Flo macht's Entrümpelung  
-Heilbronnerstraße 33  
-71665 Vaihingen an der Enz  
+      <h2>4. Kontaktformular</h2>
+      <p>
+        Wenn Sie uns über das Kontaktformular kontaktieren, verarbeiten wir Ihre Angaben zur Bearbeitung Ihrer Anfrage.
+        Dazu können insbesondere Name, Telefonnummer, ausgewählte Leistung und Ihre Nachricht gehören.
+      </p>
 
-Telefon: +49 173 9022764
+      <h2>5. Kontakt per Telefon oder WhatsApp</h2>
+      <p>
+        Wenn Sie uns telefonisch oder per WhatsApp kontaktieren, verarbeiten wir die von Ihnen übermittelten Daten
+        zur Bearbeitung Ihrer Anfrage und zur Kommunikation mit Ihnen.
+      </p>
 
-</p>
+      <h2>6. Zweck der Verarbeitung</h2>
+      <p>
+        Die Verarbeitung erfolgt zur Bearbeitung von Anfragen, zur Terminvereinbarung, zur Angebotserstellung
+        und zur Durchführung unserer Dienstleistungen.
+      </p>
 
-<h2>Server-Logfiles</h2>
+      <h2>7. Ihre Rechte</h2>
+      <p>
+        Sie haben im Rahmen der gesetzlichen Vorgaben das Recht auf Auskunft, Berichtigung, Löschung,
+        Einschränkung der Verarbeitung sowie Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten.
+      </p>
 
-<p>
+      <h2>8. Beschwerderecht</h2>
+      <p>
+        Sie haben das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren.
+      </p>
 
-Der Provider der Seiten erhebt und speichert automatisch Informationen in sogenannten Server-Logfiles.
+      <a class="btn" href="/index.html">Zurück zur Startseite</a>
+    </section>
+  </main>
 
-</p>
-
-<h2>Kontaktaufnahme</h2>
-
-<p>
-
-Wenn Sie uns per Telefon oder WhatsApp kontaktieren, werden Ihre Angaben zur Bearbeitung Ihrer Anfrage gespeichert.
-
-</p>
-
-<h2>Ihre Rechte</h2>
-
-<p>
-
-Sie haben jederzeit das Recht auf Auskunft, Berichtigung oder Löschung Ihrer gespeicherten personenbezogenen Daten.
-
-</p>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Flo macht’s Entrümpelung</strong><br>
+        Heilbronnerstraße 33<br>
+        71665 Vaihingen an der Enz
+      </div>
+      <div>
+        <a href="/impressum.html">Impressum</a> ·
+        <a href="/datenschutz.html">Datenschutz</a> ·
+        <a href="/leistungen.html">Leistungsbedingungen</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
