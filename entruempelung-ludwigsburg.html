@@ -1,131 +1,307 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrümpelung Ludwigsburg & Haushaltsauflösung | Flo macht’s</title>
+  <meta name="description" content="Entrümpelung Ludwigsburg, Haushaltsauflösung Ludwigsburg und Wohnungsauflösung Ludwigsburg mit Flo macht’s. Kostenlose Besichtigung, Festpreis und besenreine Übergabe." />
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://flomachts.github.io/entruempelung-stuttgart/entruempelung-ludwigsburg.html">
 
-<title>Entrümpelung Ludwigsburg | Flo macht’s Entrümpelung</title>
-
-<meta name="description" content="Entrümpelung Ludwigsburg und Umgebung. Haushaltsauflösung, Wohnungsauflösung und Kellerentrümpelung zum Festpreis." />
-
-<meta name="robots" content="index,follow">
-
-<style>
-
-body{
-margin:0;
-font-family:Arial;
-background:#f8fafc;
-color:#0f172a;
-line-height:1.7;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:40px;
-}
-
-.logo img{
-height:90px;
-}
-
-.card{
-background:white;
-padding:30px;
-border-radius:14px;
-box-shadow:0 10px 30px rgba(0,0,0,0.08);
-margin-top:30px;
-}
-
-h1{
-font-size:36px;
-}
-
-.btn{
-display:inline-block;
-margin-top:25px;
-background:#ea580c;
-color:white;
-padding:12px 20px;
-border-radius:40px;
-font-weight:bold;
-}
-
-footer{
-background:#0f172a;
-color:white;
-padding:30px;
-margin-top:60px;
-}
-
-footer a{
-color:white;
-margin-right:10px;
-}
-
-</style>
-
+  <style>
+    :root{
+      --bg:#f8fafc;--surface:#ffffff;--text:#0f172a;--muted:#475569;--line:#e2e8f0;
+      --brand:#ea580c;--brand-dark:#c2410c;--accent:#0f766e;--dark:#0f172a;
+      --shadow:0 12px 32px rgba(2,6,23,.08);--radius:18px;--max:1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(100% - 32px, var(--max));margin:auto}
+    .topbar{background:var(--dark);color:#fff;font-size:14px}
+    .topbar .container{display:flex;justify-content:space-between;gap:12px;padding:10px 0;flex-wrap:wrap}
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 0}
+    .logo img{height:90px;width:auto;display:block}
+    .nav-links{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+    .nav-links a{color:var(--muted);font-weight:700;font-size:15px}
+    .btn{display:inline-block;border-radius:999px;padding:14px 20px;font-weight:800;transition:.2s ease;text-align:center;border:2px solid transparent}
+    .btn-primary{background:var(--brand);color:#fff;box-shadow:var(--shadow)}
+    .btn-primary:hover{background:var(--brand-dark)}
+    .btn-secondary{background:#fff;border-color:var(--line);color:var(--text)}
+    .hero{padding:72px 0 42px;background:radial-gradient(circle at top left, rgba(234,88,12,.18), transparent 35%), linear-gradient(135deg, #0f172a 0%, #134e4a 100%);color:#fff}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:start}
+    .badge{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.14);padding:8px 12px;border-radius:999px;font-size:14px;margin-bottom:14px;font-weight:700}
+    h1{margin:0 0 16px;font-size:clamp(34px, 5vw, 58px);line-height:1.06}
+    .lead{margin:0 0 22px;font-size:18px;color:rgba(255,255,255,.92);max-width:760px}
+    .hero-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:24px 0 28px}
+    .hero-points div{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.12);padding:14px 16px;border-radius:14px;font-weight:700}
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px}
+    .hero-card,.card,.text-box,.contact-box{background:#fff;color:var(--text);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+    .hero-card h2,.card h3,.text-box h3,.contact-box h3{margin:0 0 10px;font-size:28px;line-height:1.15}
+    .hero-card p,.card p,.text-box p,.contact-box p{margin:0 0 14px;color:var(--muted)}
+    section{padding:64px 0}
+    .section-head{max-width:820px;margin-bottom:24px}
+    .eyebrow{color:var(--brand);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:13px;margin-bottom:10px}
+    h2{margin:0 0 12px;font-size:clamp(28px, 4vw, 42px);line-height:1.15}
+    .section-head p{margin:0;color:var(--muted);font-size:17px}
+    .cards-3,.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+    .checklist{display:grid;gap:12px}
+    .check{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow);font-weight:700}
+    .price{font-size:32px;font-weight:800;color:var(--accent);margin:10px 0}
+    .price-card ul{margin:14px 0 0;padding-left:18px;color:var(--muted)}
+    .faq{display:grid;gap:14px}
+    details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:var(--shadow)}
+    summary{cursor:pointer;font-weight:800;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    details p{margin:12px 0 0;color:var(--muted)}
+    .footer{background:var(--dark);color:#fff;padding:34px 0;margin-top:10px}
+    .footer-grid{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    @media (max-width:980px){.hero-grid,.cards-3,.price-grid,.split{grid-template-columns:1fr}.nav{flex-direction:column;align-items:flex-start}.hero-points{grid-template-columns:1fr}}
+    @media (max-width:720px){.nav-links{display:none}.logo img{height:74px}}
+  </style>
 </head>
-
 <body>
+  <div class="topbar">
+    <div class="container">
+      <div>Flo macht’s · Entrümpelung & Haushaltsauflösung</div>
+      <div>Ludwigsburg · Stuttgart · Heilbronn · 0173 9022764</div>
+    </div>
+  </div>
 
-<div class="container">
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo"><img src="logo.png" alt="Flo macht’s Entrümpelung Logo"></a>
+      <nav class="nav-links">
+        <a href="index.html">Startseite</a>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#preise">Preise</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontakt" class="btn btn-primary">Kostenlose Besichtigung</a>
+      </nav>
+    </div>
+  </header>
 
-<a href="index.html" class="logo">
-<img src="logo.png">
-</a>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge">Entrümpelung Ludwigsburg · Festpreis · Besenrein</div>
+          <h1>Entrümpelung Ludwigsburg zum fairen Festpreis</h1>
+          <p class="lead">
+            Flo macht’s übernimmt Entrümpelungen, Haushaltsauflösungen und Wohnungsauflösungen
+            in Ludwigsburg und Umgebung. Wir räumen Wohnungen, Häuser, Keller, Dachböden und
+            kleinere Gewerbeobjekte zuverlässig und transparent.
+          </p>
+          <div class="hero-points">
+            <div>✓ Kostenlose Besichtigung in Ludwigsburg</div>
+            <div>✓ Transparenter Festpreis</div>
+            <div>✓ Kurzfristige Termine möglich</div>
+            <div>✓ Besenreine Übergabe</div>
+          </div>
+          <div class="cta-row">
+            <a href="#kontakt" class="btn btn-primary">Jetzt anfragen</a>
+            <a href="tel:+491739022764" class="btn btn-secondary">Jetzt anrufen</a>
+            <a href="https://wa.me/491739022764" class="btn btn-secondary" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Schnelle Hilfe in Ludwigsburg</h2>
+          <p>Kurze Anfrage senden und unverbindlich Rückmeldung erhalten.</p>
+          <div class="checklist">
+            <div class="check">✓ Entrümpelung Ludwigsburg</div>
+            <div class="check">✓ Haushaltsauflösung Ludwigsburg</div>
+            <div class="check">✓ Wohnungsauflösung Ludwigsburg</div>
+            <div class="check">✓ Keller und Dachboden</div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<div class="card">
+    <section id="leistungen">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Leistungen</div>
+          <h2>Unsere Leistungen für Entrümpelung in Ludwigsburg</h2>
+          <p>
+            In Ludwigsburg übernehmen wir Entrümpelungen für Privatkunden und kleinere Unternehmen.
+            Dazu gehören Haushaltsauflösungen, Wohnungsauflösungen, Kellerentrümpelungen,
+            Dachbodenräumungen, Nachlassauflösungen und besenreine Übergaben.
+          </p>
+        </div>
+        <div class="cards-3">
+          <article class="card">
+            <h3>Wohnung & Haus</h3>
+            <p>Wir entrümpeln Wohnungen und Häuser in Ludwigsburg zuverlässig und termingerecht.</p>
+          </article>
+          <article class="card">
+            <h3>Keller & Dachboden</h3>
+            <p>Auch vollgestellte Nebenräume und Dachböden räumen wir fachgerecht und sauber.</p>
+          </article>
+          <article class="card">
+            <h3>Haushaltsauflösung</h3>
+            <p>Komplette Haushaltsauflösung in Ludwigsburg inklusive Entsorgung und Übergabe.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<h1>Entrümpelung Ludwigsburg</h1>
+    <section>
+      <div class="container split">
+        <div class="text-box">
+          <h3>Wann braucht man eine Entrümpelung in Ludwigsburg?</h3>
+          <p>
+            Gründe sind oft Umzug, Erbschaft, Renovierung, Räumung vor dem Verkauf oder eine
+            Nachlassauflösung. Genau dann wünschen sich viele Kunden einen verlässlichen Anbieter.
+          </p>
+          <p>
+            Flo macht’s unterstützt Sie dabei, den Ablauf planbar zu machen und Räume schnell
+            und sauber zu räumen.
+          </p>
+        </div>
+        <div class="text-box">
+          <h3>Was wird alles übernommen?</h3>
+          <p>
+            Wir übernehmen Möbel, Hausrat, Kellerinhalte, Dachbodenbestände und kleinere
+            Gewerbeflächen. Auf Wunsch sind auch Demontagearbeiten möglich.
+          </p>
+          <p>
+            Nach der Räumung werden die Räume besenrein übergeben.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<p>
+    <section id="preise">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Preise</div>
+          <h2>Was kostet eine Entrümpelung in Ludwigsburg?</h2>
+          <p>
+            Die Kosten hängen vom Umfang des Auftrags ab. Nach einer kostenlosen Besichtigung
+            erhalten Sie ein transparentes Festpreisangebot.
+          </p>
+        </div>
+        <div class="price-grid">
+          <article class="card price-card">
+            <h3>Keller / kleiner Raum</h3>
+            <div class="price">ab 250 €</div>
+            <p>Kleine Räumungen mit normalem Aufwand.</p>
+            <ul>
+              <li>Abtransport inklusive</li>
+              <li>Entsorgung inklusive</li>
+              <li>Besenreine Übergabe</li>
+            </ul>
+          </article>
+          <article class="card price-card">
+            <h3>2–3 Zimmer Wohnung</h3>
+            <div class="price">ab 850 €</div>
+            <p>Je nach Etage, Menge und Aufwand.</p>
+            <ul>
+              <li>Festpreis nach Besichtigung</li>
+              <li>Transparente Kalkulation</li>
+              <li>Schnelle Terminvergabe</li>
+            </ul>
+          </article>
+          <article class="card price-card">
+            <h3>Haus / Komplettobjekt</h3>
+            <div class="price">ab 1.800 €</div>
+            <p>Für größere Objekte und komplette Haushaltsauflösungen.</p>
+            <ul>
+              <li>Kompletträumung möglich</li>
+              <li>Optional mit Demontage</li>
+              <li>Saubere Übergabe</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-Flo macht’s bietet professionelle Entrümpelungen in Ludwigsburg
-und Umgebung. Wir übernehmen Wohnungsauflösungen, Haushaltsauflösungen
-sowie Keller- und Dachbodenentrümpelungen.
+    <section id="kontakt">
+      <div class="container split">
+        <div class="text-box">
+          <h3>Warum Flo macht’s für Ludwigsburg?</h3>
+          <p>
+            Kunden schätzen transparente Preise, saubere Arbeit und klare Kommunikation.
+            Gerade bei Haushaltsauflösungen oder Wohnungsauflösungen ist Vertrauen entscheidend.
+          </p>
+          <div class="checklist">
+            <div class="check">✓ Kostenlose Besichtigung</div>
+            <div class="check">✓ Festpreis nach Besichtigung</div>
+            <div class="check">✓ Fachgerechte Entsorgung</div>
+            <div class="check">✓ Zuverlässige Durchführung</div>
+          </div>
+        </div>
+        <div class="contact-box">
+          <h3>Direkter Kontakt</h3>
+          <p>
+            Für Entrümpelung Ludwigsburg oder Haushaltsauflösung Ludwigsburg erreichen Sie Flo macht’s
+            direkt telefonisch oder per WhatsApp.
+          </p>
+          <p>
+            Telefon: <a href="tel:+491739022764"><strong>0173 9022764</strong></a><br>
+            WhatsApp: <a href="https://wa.me/491739022764" target="_blank" rel="noopener"><strong>Nachricht senden</strong></a>
+          </p>
+          <a href="tel:+491739022764" class="btn btn-primary" style="width:100%;margin-bottom:10px;">Jetzt anrufen</a>
+          <a href="https://wa.me/491739022764" class="btn btn-secondary" style="width:100%;" target="_blank" rel="noopener">WhatsApp öffnen</a>
+        </div>
+      </div>
+    </section>
 
-</p>
+    <section id="faq">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">FAQ</div>
+          <h2>Häufige Fragen zur Entrümpelung Ludwigsburg</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Was kostet eine Entrümpelung in Ludwigsburg?</summary>
+            <p>Die genauen Kosten hängen von Größe, Menge und Aufwand ab. Nach der Besichtigung erhalten Sie einen Festpreis.</p>
+          </details>
+          <details>
+            <summary>Bietet Flo macht’s auch Haushaltsauflösung in Ludwigsburg an?</summary>
+            <p>Ja, wir übernehmen komplette Haushaltsauflösungen in Ludwigsburg inklusive Abtransport und besenreiner Übergabe.</p>
+          </details>
+          <details>
+            <summary>Sind kurzfristige Termine möglich?</summary>
+            <p>Ja, je nach Auslastung sind auch kurzfristige Termine möglich.</p>
+          </details>
+        </div>
+      </div>
+    </section>
 
-<h2>Haushaltsauflösung Ludwigsburg</h2>
+    <section>
+      <div class="container text-box">
+        <h3>Weitere Einsatzorte</h3>
+        <p>
+          Neben Ludwigsburg sind wir auch tätig für
+          <a href="entruempelung-stuttgart.html"><strong>Entrümpelung Stuttgart</strong></a>
+          und
+          <a href="entruempelung-heilbronn.html"><strong>Entrümpelung Heilbronn</strong></a>.
+          Zurück zur <a href="index.html"><strong>Startseite</strong></a>.
+        </p>
+      </div>
+    </section>
+  </main>
 
-<p>
-
-Bei einer Haushaltsauflösung räumen wir Wohnungen und Häuser
-komplett aus und übergeben die Räume besenrein.
-
-</p>
-
-<h2>Unsere Leistungen</h2>
-
-<ul>
-<li>Entrümpelung Wohnungen</li>
-<li>Entrümpelung Häuser</li>
-<li>Kellerentrümpelung</li>
-<li>Dachbodenentrümpelung</li>
-<li>Haushaltsauflösung</li>
-<li>Wohnungsauflösung</li>
-</ul>
-
-<a href="index.html" class="btn">Zurück zur Startseite</a>
-
-</div>
-
-</div>
-
-<footer>
-
-Flo macht’s Entrümpelung
-
-<br><br>
-
-<a href="impressum.html">Impressum</a>
-<a href="datenschutz.html">Datenschutz</a>
-<a href="leistungen.html">Leistungsbedingungen</a>
-
-</footer>
-
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Flo macht’s Entrümpelung</strong><br>
+        Florian Demaj<br>
+        Heilbronnerstraße 33<br>
+        71665 Vaihingen an der Enz
+      </div>
+      <div>
+        <a href="index.html">Startseite</a> ·
+        <a href="impressum.html">Impressum</a> ·
+        <a href="datenschutz.html">Datenschutz</a> ·
+        <a href="leistungen.html">Leistungsbedingungen</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
