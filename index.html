@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Entrümpelung Stuttgart | Festpreis, kurzfristige Termine & besenrein</title>
+  <meta name="description" content="Entrümpelung in Stuttgart und Umgebung. Kostenlose Besichtigung, transparente Festpreise, besenreine Übergabe und schnelle Termine. Jetzt unverbindlich anfragen." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://www.deinedomain.de/" />
+
+  <meta property="og:title" content="Entrümpelung Stuttgart | Festpreis & kostenlose Besichtigung" />
+  <meta property="og:description" content="Schnelle und zuverlässige Entrümpelung in Stuttgart. Wohnung, Haus, Keller, Dachboden oder Gewerbeobjekt – jetzt unverbindlich anfragen." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.deinedomain.de/" />
+  <meta property="og:image" content="https://www.deinedomain.de/og-image.jpg" />
+
+  <meta name="theme-color" content="#0f172a" />
+
+  <style>
+    :root{
+      --bg:#f8fafc;
+      --white:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --line:#e2e8f0;
+      --brand:#ea580c;
+      --brand-dark:#c2410c;
+      --accent:#0f766e;
+      --shadow:0 10px 30px rgba(2,6,23,.08);
+      --radius:18px;
+      --max:1180px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.55;
+    }
+
+    img{max-width:100%;display:block}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(100% - 32px, var(--max));margin:auto}
+
+    .topbar{
+      background:#0f172a;
+      color:#fff;
+      font-size:14px;
+    }
+    .topbar-inner{
+      display:flex;
+      justify-content:space-between;
+      gap:16px;
+      padding:10px 0;
+      flex-wrap:wrap;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(255,255,255,.94);
+      backdrop-filter:blur(8px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .nav{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+      padding:16px 0;
+    }
+
+    .logo{
+      font-weight:800;
+      font-size:22px;
+      letter-spacing:.2px;
+    }
+    .logo span{color:var(--brand)}
+
+    .nav-links{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    .nav-links a{
+      color:var(--muted);
+      font-weight:600;
+      font-size:15px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:14px 20px;
+      border-radius:999px;
+      font-weight:700;
+      transition:.2s ease;
+      border:2px solid transparent;
+      text-align:center;
+    }
+
+    .btn-primary{
+      background:var(--brand);
+      color:#fff;
+      box-shadow:var(--shadow);
+    }
+    .btn-primary:hover{background:var(--brand-dark)}
+
+    .btn-secondary{
+      background:#fff;
+      color:var(--text);
+      border-color:var(--line);
+    }
+
+    .hero{
+      padding:72px 0 40px;
+      background:
+        linear-gradient(135deg, rgba(15,23,42,.92), rgba(15,118,110,.86)),
+        url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color:#fff;
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:28px;
+      align-items:start;
+    }
+
+    .badge{
+      display:inline-block;
+      background:rgba(255,255,255,.14);
+      border:1px solid rgba(255,255,255,.18);
+      color:#fff;
+      padding:8px 12px;
+      border-radius:999px;
+      font-size:14px;
+      margin-bottom:16px;
+    }
+
+    h1{
+      font-size:clamp(34px, 5vw, 58px);
+      line-height:1.05;
+      margin:0 0 16px;
+    }
+
+    .hero p.lead{
+      font-size:18px;
+      color:rgba(255,255,255,.92);
+      max-width:720px;
+      margin:0 0 22px;
+    }
+
+    .hero-points{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:12px;
+      margin:24px 0 28px;
+    }
+
+    .hero-points div{
+      background:rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.14);
+      padding:14px 16px;
+      border-radius:14px;
+      font-weight:700;
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-top:10px;
+    }
+
+    .hero-card{
+      background:#fff;
+      color:var(--text);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+
+    .hero-card h2{
+      margin:0 0 10px;
+      font-size:26px;
+    }
+
+    .hero-card p{
+      margin:0 0 18px;
+      color:var(--muted);
+    }
+
+    .trust-row{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:14px;
+      margin-top:28px;
+    }
+
+    .trust-item{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px;
+      text-align:center;
+      box-shadow:var(--shadow);
+    }
+
+    .trust-item strong{
+      display:block;
+      font-size:18px;
+      margin-bottom:6px;
+    }
+
+    section{
+      padding:68px 0;
+    }
+
+    .section-head{
+      max-width:760px;
+      margin-bottom:28px;
+    }
+
+    .eyebrow{
+      color:var(--brand);
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      font-size:13px;
+      margin-bottom:10px;
+    }
+
+    h2{
+      font-size:clamp(28px, 4vw, 42px);
+      line-height:1.15;
+      margin:0 0 12px;
+    }
+
+    .section-head p{
+      color:var(--muted);
+      margin:0;
+      font-size:17px;
+    }
+
+    .cards-3{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+    }
+
+    .card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+
+    .card h3{
+      margin:0 0 10px;
+      font-size:22px;
+    }
+
+    .card p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .steps{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+    }
+
+    .step-number{
+      width:46px;height:46px;
+      border-radius:50%;
+      background:var(--brand);
+      color:#fff;
+      display:grid;
+      place-items:center;
+      font-weight:800;
+      margin-bottom:14px;
+    }
+
+    .price-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+    }
+
+    .price-card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+
+    .price-card .price{
+      font-size:32px;
+      font-weight:800;
+      margin:10px 0;
+      color:var(--accent);
+    }
+
+    .price-card ul{
+      padding-left:18px;
+      margin:14px 0 0;
+      color:var(--muted);
+    }
+
+    .split{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:24px;
+      align-items:start;
+    }
+
+    .checklist{
+      display:grid;
+      gap:12px;
+    }
+
+    .check{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:14px 16px;
+      box-shadow:var(--shadow);
+      color:var(--text);
+      font-weight:600;
+    }
+
+    .faq{
+      display:grid;
+      gap:14px;
+    }
+
+    details{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:18px 18px;
+      box-shadow:var(--shadow);
+    }
+
+    summary{
+      cursor:pointer;
+      font-weight:700;
+      list-style:none;
+    }
+
+    summary::-webkit-details-marker{display:none}
+    details p{
+      color:var(--muted);
+      margin:12px 0 0;
+    }
+
+    .contact-wrap{
+      display:grid;
+      grid-template-columns:1fr .9fr;
+      gap:24px;
+      align-items:start;
+    }
+
+    .contact-box,
+    .form-box{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+    }
+
+    form{
+      display:grid;
+      gap:14px;
+    }
+
+    input, select, textarea{
+      width:100%;
+      border:1px solid #cbd5e1;
+      border-radius:12px;
+      padding:14px 14px;
+      font:inherit;
+      background:#fff;
+      color:var(--text);
+    }
+
+    textarea{
+      min-height:140px;
+      resize:vertical;
+    }
+
+    label{
+      font-weight:700;
+      font-size:15px;
+      margin-bottom:6px;
+      display:block;
+    }
+
+    .small{
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .footer{
+      background:#0f172a;
+      color:#fff;
+      padding:34px 0;
+      margin-top:20px;
+    }
+
+    .footer-grid{
+      display:flex;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .mobile-cta{
+      display:none;
+    }
+
+    @media (max-width: 980px){
+      .hero-grid,
+      .cards-3,
+      .steps,
+      .price-grid,
+      .split,
+      .contact-wrap,
+      .trust-row{
+        grid-template-columns:1fr;
+      }
+
+      .nav{
+        align-items:flex-start;
+        flex-direction:column;
+      }
+
+      .hero-points{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media (max-width: 720px){
+      .nav-links{
+        display:none;
+      }
+
+      .mobile-cta{
+        position:fixed;
+        left:0;
+        right:0;
+        bottom:0;
+        z-index:60;
+        background:#fff;
+        border-top:1px solid var(--line);
+        padding:10px 12px;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+      }
+
+      body{padding-bottom:82px}
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Muster Entrümpelung Stuttgart",
+    "image":"https://www.deinedomain.de/logo.jpg",
+    "url":"https://www.deinedomain.de/",
+    "telephone":"+49-000-0000000",
+    "email":"info@deinedomain.de",
+    "description":"Entrümpelung, Haushaltsauflösung und besenreine Räumung in Stuttgart und Umgebung.",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Musterstraße 1",
+      "postalCode":"70173",
+      "addressLocality":"Stuttgart",
+      "addressCountry":"DE"
+    },
+    "areaServed":[
+      "Stuttgart",
+      "Ludwigsburg",
+      "Esslingen",
+      "Böblingen",
+      "Waiblingen"
+    ],
+    "priceRange":"€€",
+    "sameAs":[
+      "https://www.instagram.com/deinprofil",
+      "https://www.facebook.com/deinprofil"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>Entrümpelung in Stuttgart & Umgebung</div>
+      <div>Jetzt anrufen: <strong>0151 23456789</strong> · Kostenlose Besichtigung</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a href="#top" class="logo">Entrümpelung <span>Stuttgart</span></a>
+
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#preise">Preise</a>
+        <a href="#faq">FAQ</a>
+        <a href="#kontakt" class="btn btn-primary">Kostenlose Besichtigung</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge">Schnell · Transparent · Besenrein</div>
+          <h1>Entrümpelung in Stuttgart zum fairen Festpreis</h1>
+          <p class="lead">
+            Wir entrümpeln Wohnungen, Häuser, Keller, Dachböden und Gewerbeobjekte
+            in Stuttgart und Umgebung. Sie erhalten eine kostenlose Besichtigung,
+            eine klare Preiseinschätzung und eine besenreine Übergabe.
+          </p>
+
+          <div class="hero-points">
+            <div>✓ Kostenlose Besichtigung vor Ort</div>
+            <div>✓ Festpreis ohne versteckte Kosten</div>
+            <div>✓ Kurzfristige Termine möglich</div>
+            <div>✓ Fachgerechte Entsorgung inklusive</div>
+          </div>
+
+          <div class="cta-row">
+            <a href="#kontakt" class="btn btn-primary">Jetzt Anfrage senden</a>
+            <a href="tel:+4915123456789" class="btn btn-secondary">Direkt anrufen</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Schnellanfrage">
+          <h2>Kostenlose Erstberatung</h2>
+          <p>In der Regel melden wir uns schnell zurück. Auf Wunsch auch telefonisch.</p>
+
+          <form name="hero-anfrage" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="hero-anfrage">
+            <p hidden>
+              <label>Bitte nicht ausfüllen: <input name="bot-field"></label>
+            </p>
+
+            <div>
+              <label for="hero-name">Name</label>
+              <input id="hero-name" name="name" type="text" placeholder="Ihr Name" required>
+            </div>
+
+            <div>
+              <label for="hero-telefon">Telefon</label>
+              <input id="hero-telefon" name="telefon" type="tel" placeholder="Ihre Telefonnummer" required>
+            </div>
+
+            <div>
+              <label for="hero-objekt">Was soll entrümpelt werden?</label>
+              <select id="hero-objekt" name="objekt" required>
+                <option value="">Bitte auswählen</option>
+                <option>Wohnung</option>
+                <option>Haus</option>
+                <option>Keller</option>
+                <option>Dachboden</option>
+                <option>Gewerbeobjekt</option>
+                <option>Haushaltsauflösung</option>
+              </select>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Unverbindlich anfragen</button>
+            <div class="small">Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben zur Bearbeitung Ihrer Anfrage zu.</div>
+          </form>
+        </aside>
+      </div>
+
+      <div class="container">
+        <div class="trust-row">
+          <div class="trust-item">
+            <strong>Festpreis</strong>
+            Keine Überraschungen nach der Besichtigung
+          </div>
+          <div class="trust-item">
+            <strong>Besenrein</strong>
+            Saubere Übergabe der Räume
+          </div>
+          <div class="trust-item">
+            <strong>Kurzfristig</strong>
+            Schnelle Terminvergabe möglich
+          </div>
+          <div class="trust-item">
+            <strong>Lokal</strong>
+            Für Stuttgart und die Region
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leistungen">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Leistungen</div>
+          <h2>Entrümpelung, Haushaltsauflösung und Räumung aus einer Hand</h2>
+          <p>
+            Ob einzelne Räume oder komplette Objekte: Wir übernehmen Planung,
+            Räumung, Abtransport und Entsorgung zuverlässig und termingerecht.
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="card">
+            <h3>Wohnungen & Häuser</h3>
+            <p>Komplette Entrümpelung bei Umzug, Erbschaft, Verkauf oder Renovierung inklusive Demontage und besenreiner Übergabe.</p>
+          </article>
+
+          <article class="card">
+            <h3>Keller & Dachboden</h3>
+            <p>Schnelle Räumung von Kellern, Abstellräumen und Dachböden mit fachgerechter Trennung und Entsorgung.</p>
+          </article>
+
+          <article class="card">
+            <h3>Gewerbe & Nachlass</h3>
+            <p>Räumungen für Büros, Läden, Lager oder Nachlassobjekte mit diskretem Ablauf und klarer Terminplanung.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ablauf">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Ablauf</div>
+          <h2>So läuft Ihre Entrümpelung in 3 klaren Schritten ab</h2>
+          <p>Ein einfacher Prozess schafft Vertrauen und senkt Rückfragen. Genau das erhöht in der Praxis die Anfragequote.</p>
+        </div>
+
+        <div class="steps">
+          <article class="card">
+            <div class="step-number">1</div>
+            <h3>Anfrage stellen</h3>
+            <p>Sie schicken uns Ihre Anfrage per Formular oder rufen direkt an. Optional können Sie erste Infos oder Fotos mitgeben.</p>
+          </article>
+
+          <article class="card">
+            <div class="step-number">2</div>
+            <h3>Kostenlose Besichtigung</h3>
+            <p>Wir sehen uns das Objekt an, klären Aufwand und Zugänglichkeit und nennen Ihnen einen nachvollziehbaren Festpreis.</p>
+          </article>
+
+          <article class="card">
+            <div class="step-number">3</div>
+            <h3>Räumung & Übergabe</h3>
+            <p>Wir entrümpeln termingerecht, transportieren alles ab und übergeben die Räume sauber und besenrein.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="preise">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Preise</div>
+          <h2>Transparente Preisorientierung für Entrümpelungen in Stuttgart</h2>
+          <p>
+            Ein verbindlicher Preis ist erst nach Besichtigung sinnvoll. Zur Orientierung kannst du auf der Seite
+            aber Preisbeispiele zeigen, weil das Unsicherheit reduziert und qualifizierte Anfragen erhöht.
+          </p>
+        </div>
+
+        <div class="price-grid">
+          <article class="price-card">
+            <h3>Keller / kleiner Raum</h3>
+            <div class="price">ab 250 €</div>
+            <p>Für kleinere Räumungen mit normaler Zugänglichkeit.</p>
+            <ul>
+              <li>Abtransport inklusive</li>
+              <li>Fachgerechte Entsorgung</li>
+              <li>Besenreine Übergabe</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <h3>2–3 Zimmer Wohnung</h3>
+            <div class="price">ab 850 €</div>
+            <p>Je nach Etage, Füllgrad, Laufwegen und Demontageaufwand.</p>
+            <ul>
+              <li>Festpreis nach Besichtigung</li>
+              <li>Schnelle Terminvergabe</li>
+              <li>Transparent kalkuliert</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <h3>Haus / Komplettobjekt</h3>
+            <div class="price">ab 1.800 €</div>
+            <p>Für Häuser, größere Objekte oder umfangreiche Haushaltsauflösungen.</p>
+            <ul>
+              <li>Kompletträumung möglich</li>
+              <li>Optional mit Demontage</li>
+              <li>Saubere Übergabe</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container split">
+        <div>
+          <div class="section-head">
+            <div class="eyebrow">Warum wir</div>
+            <h2>Warum Kunden aus Stuttgart anfragen</h2>
+            <p>Menschen buchen nicht nur wegen des Preises, sondern weil sie Sicherheit wollen.</p>
+          </div>
+
+          <div class="checklist">
+            <div class="check">✓ Kostenlose Besichtigung und klare Einschätzung vorab</div>
+            <div class="check">✓ Festpreis statt offener Kosten</div>
+            <div class="check">✓ Diskrete und zuverlässige Durchführung</div>
+            <div class="check">✓ Fachgerechte Entsorgung aller üblichen Materialien</div>
+            <div class="check">✓ Geeignet für Wohnung, Haus, Keller, Dachboden und Gewerbe</div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <h3>Regional unterwegs</h3>
+          <p style="color:#475569">
+            Einsatzgebiet zum Beispiel:
+            <strong>Stuttgart, Ludwigsburg, Esslingen, Böblingen, Waiblingen und Umgebung.</strong>
+          </p>
+
+          <h3>Typische Einsatzgründe</h3>
+          <p style="color:#475569">
+            Umzug, Nachlass, Wohnungsauflösung, Verkauf, Sanierung, Räumung von Nebenräumen
+            oder kurzfristige Terminprobleme.
+          </p>
+
+          <h3>Kontakt</h3>
+          <p style="color:#475569; margin-bottom:0">
+            Telefon: <a href="tel:+4915123456789"><strong>0151 23456789</strong></a><br>
+            E-Mail: <a href="mailto:info@deinedomain.de"><strong>info@deinedomain.de</strong></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">FAQ</div>
+          <h2>Häufige Fragen zur Entrümpelung in Stuttgart</h2>
+          <p>Gute FAQ helfen bei Conversion und können zusätzliche Suchanfragen abdecken.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Was kostet eine Entrümpelung in Stuttgart?</summary>
+            <p>Das hängt von Objektgröße, Füllgrad, Etage, Laufwegen, Demontage und Entsorgungsaufwand ab. Einen verbindlichen Festpreis erhalten Sie nach einer kurzen Besichtigung.</p>
+          </details>
+
+          <details>
+            <summary>Wie schnell ist ein Termin möglich?</summary>
+            <p>Je nach Auslastung sind auch kurzfristige Termine möglich. Bei dringenden Fällen lohnt sich ein direkter Anruf.</p>
+          </details>
+
+          <details>
+            <summary>Werden die Räume besenrein übergeben?</summary>
+            <p>Ja, nach der Entrümpelung werden die Räume besenrein übergeben. Zusätzliche Reinigungsleistungen können optional angeboten werden.</p>
+          </details>
+
+          <details>
+            <summary>Ist die Entsorgung im Preis enthalten?</summary>
+            <p>Im Regelfall ja. Abtransport, Sortierung und fachgerechte Entsorgung werden im Angebot klar aufgeführt.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Kontakt</div>
+          <h2>Jetzt kostenlose Besichtigung anfragen</h2>
+          <p>Je einfacher das Formular, desto besser die Conversion. Daher fragen wir nur die wirklich wichtigen Daten ab.</p>
+        </div>
+
+        <div class="contact-wrap">
+          <div class="form-box">
+            <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="kontakt">
+              <p hidden>
+                <label>Bitte nicht ausfüllen: <input name="bot-field"></label>
+              </p>
+
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Ihr Name" required>
+              </div>
+
+              <div>
+                <label for="telefon">Telefon</label>
+                <input id="telefon" name="telefon" type="tel" placeholder="Ihre Telefonnummer" required>
+              </div>
+
+              <div>
+                <label for="email">E-Mail</label>
+                <input id="email" name="email" type="email" placeholder="Ihre E-Mail-Adresse">
+              </div>
+
+              <div>
+                <label for="leistung">Leistung</label>
+                <select id="leistung" name="leistung" required>
+                  <option value="">Bitte auswählen</option>
+                  <option>Entrümpelung Wohnung</option>
+                  <option>Entrümpelung Haus</option>
+                  <option>Kellerentrümpelung</option>
+                  <option>Dachbodenentrümpelung</option>
+                  <option>Haushaltsauflösung</option>
+                  <option>Gewerberäumung</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="nachricht">Nachricht</label>
+                <textarea id="nachricht" name="nachricht" placeholder="Beschreiben Sie kurz Objektgröße, Ort und gewünschte Terminlage"></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Anfrage absenden</button>
+              <div class="small">
+                Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Daten zur Bearbeitung Ihrer Anfrage zu.
+                Verlinke hier später noch deine Datenschutzerklärung und dein Impressum.
+              </div>
+            </form>
+          </div>
+
+          <aside class="contact-box">
+            <h3>Direkter Kontakt</h3>
+            <p style="color:#475569">
+              Für dringende Anfragen erreichst du uns direkt telefonisch.
+            </p>
+            <p>
+              <a href="tel:+4915123456789" class="btn btn-primary" style="width:100%">Jetzt anrufen</a>
+            </p>
+
+            <h3>Ihre Vorteile</h3>
+            <div class="checklist">
+              <div class="check">✓ Unverbindliche Anfrage</div>
+              <div class="check">✓ Klare Rückmeldung</div>
+              <div class="check">✓ Festpreis nach Besichtigung</div>
+              <div class="check">✓ Region Stuttgart & Umgebung</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Muster Entrümpelung Stuttgart</strong><br>
+        Musterstraße 1 · 70173 Stuttgart
+      </div>
+      <div>
+        <a href="/impressum.html">Impressum</a> ·
+        <a href="/datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta">
+    <a href="tel:+4915123456789" class="btn btn-secondary">Anrufen</a>
+    <a href="#kontakt" class="btn btn-primary">Anfragen</a>
+  </div>
+</body>
+</html>
