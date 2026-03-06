@@ -1,25 +1,204 @@
-<h1>Leistungsbedingungen</h1>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<p>
-Flo macht’s bietet Entrümpelung und Haushaltsauflösungen
-in Stuttgart, Vaihingen an der Enz, Mühlacker,
-Pforzheim und Umgebung an.
-</p>
+  <title>Leistungsbedingungen | Flo macht’s Entrümpelung</title>
+  <meta name="description" content="Leistungsbedingungen von Flo macht’s Entrümpelung für Entrümpelung, Haushaltsauflösung und Wohnungsauflösung." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0f172a" />
 
-<h2>Kostenlose Besichtigung</h2>
-<p>
-Vor jeder Entrümpelung erfolgt eine kostenlose Besichtigung
-und ein transparentes Festpreisangebot.
-</p>
+  <style>
+    :root{
+      --bg:#f8fafc;
+      --surface:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --line:#e2e8f0;
+      --brand:#ea580c;
+      --brand-dark:#c2410c;
+      --dark:#0f172a;
+      --shadow:0 12px 32px rgba(2,6,23,.08);
+      --radius:18px;
+      --max:980px;
+    }
 
-<h2>Festpreise</h2>
-<p>
-Alle Preise werden nach Besichtigung festgelegt.
-Es entstehen keine versteckten Kosten.
-</p>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.7;
+    }
 
-<h2>Besenreine Übergabe</h2>
-<p>
-Nach Abschluss der Arbeiten werden die Räume
-besenrein übergeben.
-</p>
+    a{color:inherit;text-decoration:none}
+    .container{width:min(100% - 32px, var(--max));margin:auto}
+
+    .topbar{
+      background:var(--dark);
+      color:#fff;
+      font-size:14px;
+    }
+    .topbar .container{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      padding:10px 0;
+      flex-wrap:wrap;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:50;
+      background:rgba(255,255,255,.96);
+      border-bottom:1px solid var(--line);
+      backdrop-filter:blur(8px);
+    }
+
+    .nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+      padding:16px 0;
+    }
+
+    .logo{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      font-size:24px;
+      font-weight:800;
+      letter-spacing:.2px;
+    }
+
+    .logo img{
+      height:64px;
+      width:auto;
+      display:block;
+    }
+
+    .card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:32px;
+      box-shadow:var(--shadow);
+      margin:42px 0;
+    }
+
+    h1{
+      margin:0 0 18px;
+      font-size:clamp(32px, 4vw, 48px);
+      line-height:1.1;
+    }
+
+    h2{
+      margin:28px 0 10px;
+      font-size:24px;
+      line-height:1.2;
+    }
+
+    p{
+      margin:0 0 14px;
+      color:var(--muted);
+    }
+
+    .btn{
+      display:inline-block;
+      border-radius:999px;
+      padding:14px 20px;
+      font-weight:800;
+      background:var(--brand);
+      color:#fff;
+      margin-top:14px;
+    }
+
+    .footer{
+      background:var(--dark);
+      color:#fff;
+      padding:34px 0;
+      margin-top:10px;
+    }
+
+    .footer-grid{
+      display:flex;
+      justify-content:space-between;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <div>Flo macht’s · Entrümpelung & Haushaltsauflösung</div>
+      <div>Vaihingen an der Enz · Stuttgart · Mühlacker · Pforzheim</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav">
+      <a href="/index.html" class="logo" aria-label="Flo macht’s Startseite">
+        <img src="logo.png" alt="Flo macht’s Entrümpelung Logo">
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Leistungsbedingungen</h1>
+
+      <h2>Kostenlose Besichtigung</h2>
+      <p>
+        Vor jeder Entrümpelung oder Haushaltsauflösung erfolgt eine kostenlose und unverbindliche Besichtigung.
+      </p>
+
+      <h2>Festpreis</h2>
+      <p>
+        Nach der Besichtigung erhalten Sie ein transparentes Festpreisangebot. Die genaue Preisgestaltung
+        richtet sich nach Objektgröße, Aufwand, Laufwegen, Demontage und Entsorgungsmenge.
+      </p>
+
+      <h2>Leistungsumfang</h2>
+      <p>
+        Flo macht’s bietet Entrümpelung, Haushaltsauflösung, Wohnungsauflösung, Kellerentrümpelung,
+        Dachbodenentrümpelung, Firmenauflösung, Nachlassauflösung, Demontagearbeiten und besenreine Übergabe an.
+      </p>
+
+      <h2>Übergabe</h2>
+      <p>
+        Die Räume werden nach Absprache besenrein übergeben.
+      </p>
+
+      <h2>Einsatzgebiet</h2>
+      <p>
+        Unser Einsatzgebiet umfasst insbesondere Stuttgart, Ludwigsburg, Vaihingen an der Enz,
+        Mühlacker, Pforzheim, Illingen und Umgebung.
+      </p>
+
+      <a class="btn" href="/index.html">Zurück zur Startseite</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Flo macht’s Entrümpelung</strong><br>
+        Heilbronnerstraße 33<br>
+        71665 Vaihingen an der Enz
+      </div>
+      <div>
+        <a href="/impressum.html">Impressum</a> ·
+        <a href="/datenschutz.html">Datenschutz</a> ·
+        <a href="/leistungen.html">Leistungsbedingungen</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
