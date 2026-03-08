@@ -602,42 +602,54 @@
           <h2>Kostenlose Erstberatung</h2>
           <p>Kurze Anfrage senden und unverbindlich Rückmeldung erhalten.</p>
 
-          <form name="hero-anfrage" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="hero-anfrage">
-            <p hidden>
-              <label>Bitte nicht ausfüllen: <input name="bot-field"></label>
-            </p>
+       <form action="https://formspree.io/f/mkogqkjw" method="POST" enctype="multipart/form-data">
+  <div>
+    <label for="hero-name">Name</label>
+    <input id="hero-name" name="name" type="text" placeholder="Ihr Name" required>
+  </div>
 
-            <div>
-              <label for="hero-name">Name</label>
-              <input id="hero-name" name="name" type="text" placeholder="Ihr Name" required>
-            </div>
+  <div>
+    <label for="hero-telefon">Telefon</label>
+    <input id="hero-telefon" name="telefon" type="tel" placeholder="Ihre Telefonnummer" required>
+  </div>
 
-            <div>
-              <label for="hero-telefon">Telefon</label>
-              <input id="hero-telefon" name="telefon" type="tel" placeholder="Ihre Telefonnummer" required>
-            </div>
+  <div>
+    <label for="hero-email">E-Mail</label>
+    <input id="hero-email" name="email" type="email" placeholder="Ihre E-Mail-Adresse">
+  </div>
 
-            <div>
-              <label for="hero-objekt">Was soll entrümpelt werden?</label>
-              <select id="hero-objekt" name="objekt" required>
-                <option value="">Bitte auswählen</option>
-                <option>Wohnung</option>
-                <option>Haus</option>
-                <option>Keller</option>
-                <option>Dachboden</option>
-                <option>Haushaltsauflösung</option>
-                <option>Wohnungsauflösung</option>
-                <option>Gewerbeobjekt</option>
-                <option>Nachlassauflösung</option>
-              </select>
-            </div>
+  <div>
+    <label for="hero-ort">Ort der Entrümpelung</label>
+    <input id="hero-ort" name="ort" type="text" placeholder="z. B. Stuttgart">
+  </div>
 
-            <button class="btn btn-primary" type="submit">Unverbindlich anfragen</button>
-            <div class="small">Schnelle Rückmeldung per Telefon oder WhatsApp möglich.</div>
-          </form>
-        </aside>
-      </div>
+  <div>
+    <label for="hero-objekt">Was soll entrümpelt werden?</label>
+    <select id="hero-objekt" name="objekt" required>
+      <option value="">Bitte auswählen</option>
+      <option>Wohnung</option>
+      <option>Haus</option>
+      <option>Keller</option>
+      <option>Dachboden</option>
+      <option>Garage</option>
+      <option>Haushaltsauflösung</option>
+      <option>Gewerbeobjekt</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="hero-bilder">Bilder hochladen</label>
+    <input id="hero-bilder" name="bilder" type="file" multiple>
+  </div>
+
+  <div>
+    <label for="hero-nachricht">Nachricht</label>
+    <textarea id="hero-nachricht" name="nachricht" placeholder="Kurz beschreiben, was entrümpelt werden soll"></textarea>
+  </div>
+
+  <button class="btn btn-primary" type="submit">Unverbindlich anfragen</button>
+  <div class="small">Sie erhalten schnell eine Rückmeldung per E-Mail oder Telefon.</div>
+</form>
 
       <div class="container">
         <div class="trust-grid">
@@ -1240,50 +1252,60 @@ komplette Wohnungsauflösungen.
 
         <div class="contact-wrap">
           <div class="form-box">
-            <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="kontakt">
-              <p hidden>
-                <label>Bitte nicht ausfüllen: <input name="bot-field"></label>
-              </p>
+       <form action="https://formspree.io/f/mkogqkjw" method="POST" enctype="multipart/form-data">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Ihr Name" required>
+  </div>
 
-              <div>
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" placeholder="Ihr Name" required>
-              </div>
+  <div>
+    <label for="telefon">Telefon</label>
+    <input id="telefon" name="telefon" type="tel" placeholder="Ihre Telefonnummer" required>
+  </div>
 
-              <div>
-                <label for="telefon">Telefon</label>
-                <input id="telefon" name="telefon" type="tel" placeholder="Ihre Telefonnummer" required>
-              </div>
+  <div>
+    <label for="email">E-Mail</label>
+    <input id="email" name="email" type="email" placeholder="Ihre E-Mail-Adresse">
+  </div>
 
-              <div>
-                <label for="email">E-Mail</label>
-                <input id="email" name="email" type="email" placeholder="Ihre E-Mail-Adresse">
-              </div>
+  <div>
+    <label for="ort">Ort der Entrümpelung</label>
+    <input id="ort" name="ort" type="text" placeholder="z. B. Stuttgart, Heilbronn, Ludwigsburg">
+  </div>
 
-              <div>
-                <label for="leistung">Leistung</label>
-                <select id="leistung" name="leistung" required>
-                  <option value="">Bitte auswählen</option>
-                  <option>Entrümpelung Wohnung</option>
-                  <option>Entrümpelung Haus</option>
-                  <option>Kellerentrümpelung</option>
-                  <option>Dachbodenentrümpelung</option>
-                  <option>Haushaltsauflösung</option>
-                  <option>Wohnungsauflösung</option>
-                  <option>Gewerberäumung</option>
-                  <option>Nachlassauflösung</option>
-                </select>
-              </div>
+  <div>
+    <label for="leistung">Leistung</label>
+    <select id="leistung" name="leistung" required>
+      <option value="">Bitte auswählen</option>
+      <option>Entrümpelung Wohnung</option>
+      <option>Entrümpelung Haus</option>
+      <option>Kellerentrümpelung</option>
+      <option>Dachbodenentrümpelung</option>
+      <option>Haushaltsauflösung</option>
+      <option>Wohnungsauflösung</option>
+      <option>Garagenentrümpelung</option>
+      <option>Gewerberäumung</option>
+    </select>
+  </div>
 
-              <div>
-                <label for="nachricht">Nachricht</label>
-                <textarea id="nachricht" name="nachricht" placeholder="Beschreiben Sie kurz Ort, Objektgröße und gewünschten Termin"></textarea>
-              </div>
+  <div>
+    <label for="qm">Größe / ungefährer Umfang</label>
+    <input id="qm" name="umfang" type="text" placeholder="z. B. 3 Zimmer, Keller oder 80 qm">
+  </div>
 
-              <button class="btn btn-primary" type="submit">Anfrage absenden</button>
-              <div class="small">Telefonisch oder per WhatsApp sind Anfragen ebenfalls möglich.</div>
-            </form>
+  <div>
+    <label for="bilder">Bilder hochladen</label>
+    <input id="bilder" name="bilder" type="file" multiple>
+  </div>
+
+  <div>
+    <label for="nachricht">Nachricht</label>
+    <textarea id="nachricht" name="nachricht" placeholder="Beschreiben Sie kurz Ort, Objektgröße und gewünschten Termin"></textarea>
+  </div>
+
+  <button class="btn btn-primary" type="submit">Anfrage absenden</button>
+  <div class="small">Sie erhalten schnell eine Rückmeldung per E-Mail oder Telefon.</div>
+</form>
           </div>
 
           <aside class="contact-box">
