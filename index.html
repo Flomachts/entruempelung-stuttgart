@@ -615,7 +615,7 @@
           <h2>Kostenlose Erstberatung</h2>
           <p>Kurze Anfrage senden und unverbindlich Rückmeldung erhalten.</p>
 
-       <form action="https://formspree.io/f/xkoqgkpl" method="POST" enctype="multipart/form-data">
+       <form id="contact-form" action="https://formspree.io/f/xkoqgkpl" method="POST" enctype="multipart/form-data">
 
 <input type="hidden" name="_redirect" value="https://flomachts.de/danke">
 
@@ -1394,5 +1394,28 @@ komplette Wohnungsauflösungen.
     <a href="tel:+491739022764" class="btn btn-secondary">Anrufen</a>
     <a href="#kontakt" class="btn btn-primary">Anfragen</a>
   </div>
+<script>
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", async function(event) {
+  event.preventDefault();
+
+  const data = new FormData(form);
+
+  const response = await fetch(form.action, {
+    method: form.method,
+    body: data,
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
+
+  if (response.ok) {
+    window.location.href = "https://flomachts.de/danke";
+  } else {
+    alert("Fehler beim Senden. Bitte erneut versuchen.");
+  }
+});
+</script>
 </body>
 </html>
